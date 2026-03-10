@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+}
+header img{
+    height: 100px;
+
+}
+nav a{
+    text-decoration: none;
+    color:rgb(155, 3, 130);
+    font-size: 16px;
+    padding: 5px 15px;
+    font-family:'Times New Roman', Times, serif;
+    &:hover{
+        color: rgb(209, 209, 111);
+    }
+}
+header{
+    text-align: right;
+    box-shadow: 0px 0px 5px;
+    background-color: rgb(147, 106, 200);
+    padding: 10px 50px;
+    position: fixed;
+    width:100vw;
+}
+nav{
+    padding: 10px;
+}
+.home{
+    height: 800px;
+    background-color:rgb(238, 182, 255);
+    background-image: url(Gemini_Generated_Image_12qno12qno12qno1.png);
+    padding-top: 100px;
+}
+.deskripsihome{
+    width: 40%;
+    margin-left: 150px;
+    color:rgb(248, 243, 250);
+    font-weight: 600;
+    text-shadow: 2px 4px 12px black (0,0,0,0.5);
+    
+    & h1{
+        color: rgb(194, 142, 241);
+        background-color: rgb(85, 20, 90);
+        font-size: 100px;
+        width:max-content;
+    }
+    & h3{
+        color:rgb(255, 174, 225);
+        line-height: 30px;
+        font-weight: 600;
+        font-size: 45px;
+        font-family:'Bebas Neue';
+    }
+    & p{
+        color: antiquewhite;
+        background-color: darkorchid;
+        width: 500px;
+
+    }
+}
+.product{
+    background-color:rgb(238, 182, 255);
+    color: darkviolet;
+    font-family:'Josefin Sans';
+    
+
+    & h1{
+        padding-top: 50px;
+        padding-bottom: 30px;
+        color:rgb(49, 2, 94);
+        text-align: center;
+        background-color: rgb(236, 139, 236);
+        border-radius: 15px;
+    }
+    & h3{
+        margin-left: 150px;
+        color: deeppink;
+    }
+    & p{
+        margin-left: 150px;
+        margin-right: 150px;
+        padding-bottom: 30px;
+        font-weight: 505;
+    }
+}
+.bkom{
+    width: 150px;
+    height: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: blueviolet;
+}
+.bdrag{
+    width: 150px;
+    height: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: blueviolet;
+}
+html{
+    scroll-behavior: smooth;
+}
+.diy{
+    color:rgb(181, 6, 99);
+    background-color: rgb(251, 131, 191);
+    margin-left: 150xp;
+    font-family:'Josefin Sans';
+    padding-bottom: 50px;
+    
+
+    & h1{
+        text-align: center;
+        color: darkgoldenrod;
+        background-color: lightgoldenrodyellow;
+        padding-top: 50px;
+        padding-bottom: 10px;
+
+    }
+}
