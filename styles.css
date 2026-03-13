@@ -118,3 +118,30 @@ html{
 
     }
 }
+.contact{
+    color: rgb(244, 142, 198);
+    background-color: darkorchid;
+}
+.contactprofile{
+    background-color: rgb(94, 8, 92);
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+.imgprofile{
+    width: 100%;
+}
+.medsos{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    padding-top: 5px;
+}
+.medsos a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
+}
