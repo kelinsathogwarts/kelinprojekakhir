@@ -6,6 +6,8 @@ header img{
 
 }
 nav a{
+    position: relative;
+    bottom: 30px;
     text-decoration: none;
     color:rgb(155, 3, 130);
     font-size: 16px;
@@ -16,15 +18,19 @@ nav a{
     }
 }
 header{
-    text-align: right;
     box-shadow: 0px 0px 5px;
-    background-color: rgb(147, 106, 200);
-    padding: 10px 50px;
+    background: linear-gradient(to right, rgb(222, 140, 222),pink );
+    padding: 10px 10px;
     position: fixed;
     width:100vw;
 }
 nav{
     padding: 10px;
+}
+nav img{
+    margin-right: 600px;
+    height: 85px;
+    width: auto;
 }
 .home{
     height: 800px;
