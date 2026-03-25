@@ -136,7 +136,8 @@ html{
     text-align: center;
 }
 .imgprofile{
-    width: 100%;
+    height: 75px;
+    width: auto;
 }
 .medsos{
     left: 0;
